@@ -1,0 +1,19 @@
+.tituloCreditoBlack{
+    padding-top: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.tituloCredito{
+    padding-top: 20px;
+    margin: 0px;
+    color: #3d648a;
+    font-weight: bold;
+}
+.descricao{
+    margin: 5px;
+}
+.endereco{
+    margin-bottom: 3px;
+}

@@ -1,0 +1,110 @@
+.informativo-bold{
+  font-weight: bold;
+  color: #3d648a;
+  margin-top: 20px;
+}
+.bold{
+  font-weight: bold;
+}
+.informativo p{
+  font-size: 24px;
+}
+.informativo li{
+  list-style: decimal;
+  padding-bottom: 5px;
+}
+.btnStart{
+  background: #3d648a;
+  color: #FFF;
+  border-radius: 5px;
+}
+.tituloExercicio{
+  margin-top: 20px;
+  color: #3d648a;
+}
+.tituloQuestao{
+  color: #3d648a;
+}
+.divTitulo{
+  padding: 0px;
+  padding-bottom: 20px;
+}
+.modal-backdrop {
+  z-index: -1;
+}
+.me_feedback{
+  display: none;
+}
+.questao p{
+  font-size: 1.5em !important;
+}
+.form-group{
+  margin: 5px;
+  padding: 5px;
+}
+.form-group label{
+  font-size: 1.5em !important;
+}
+.form-group label:hover{
+  background-color: lightblue;
+}
+.form-group label:checked{
+  background-color: green;
+}
+form {
+  counter-reset: opcoes;
+}
+.informativo li{
+  font-size: 1.5em !important;
+}
+.modal-body{
+  font-size: 1.5em !important;
+}
+.modal-title{
+  font-weight: bold;
+}
+.correta{
+  background-color: lightgreen;
+}
+.incorreta{
+  background-color: pink;
+}
+.container-fluid {
+  margin: 30px
+}
+
+input[type="radio"]+label::before,
+input[type="checkbox"]+label::before {
+  counter-increment: opcoes;
+  content: "("counter(opcoes, lower-alpha) ") ";
+  font-weight: bold;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="button"] {
+  margin: 1em auto;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 3px;
+  background-color: #17a2b8;
+  border: solid 0 transparent;
+  outline: none;
+  box-shadow: 0 .1em rgba(0, 0, 0, .5);
+  padding: .5em;
+  display: block;
+  width: 50%;
+  cursor: pointer;
+}
+.clicked {
+  border:2px solid black;
+}
+.divTitulo{
+  display: none;
+}
+
+

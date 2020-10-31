@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ESUS - Protótipo</title>
+  
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Fontes -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Marvel"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- JS inseridos -->
+  <script src="js/accordian.js"></script>
+  
+  
+  <!-- CSS -->
+  <link href="css/aplicacao/menu.css" rel="stylesheet">
+  <link href="css/aplicacao/header.css" rel="stylesheet">
+  <link href="css/aplicacao/home.css" rel="stylesheet">
+  <link href="css/aplicacao/general.css" rel="stylesheet">
+  <link href="css/aplicacao/faq.css" rel="stylesheet">
+  <link href="css/aplicacao/credito.css" rel="stylesheet">
+  <link href="css/aplicacao/exercicios.css" rel="stylesheet">
+  <link href="css/aplicacao/questoes.css" rel="stylesheet">
+  <link href="css/aplicacao/manual.css" rel="stylesheet">
+</head>
+<style>
+  .big {
+
+width:100px;
+height:100px;
+background-color:red;
+cursor:pointer;
+
+}
+
+.hli {
+
+border:2px solid blue;
+background-color: green;
+
+}
+
+/*.chb{display:none;}*/
+</style>
+<body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+<!--CB-modal -->
+<!-- Button trigger modal -->
+<!-- Button trigger modal -->
+<input type="radio" value="1" id="radio1"><label for="radio1">Radio 1</label>
+<input type="radio" value="2" id="radio2"><label for="radio2">Radio 2</label>
+<input type="radio" value="3" id="radio3"><label for="radio3">Radio 3</label>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#feedbackCorreto">
+  Launch demo modal
+</button>
+
+<div class="big">
+  This is a div 1
+  <input id="chb" type="radio" />
+  </div>
+  
+  <br/>
+  
+  <div class="big">
+  This is a div 2
+  <input id="chb" type="radio" />
+  </div>
+
+<!-- Modal Correta -->
+<div class="modal fade" id="feedbackCorreto" tabindex="-1" role="dialog" aria-labelledby="questaoCorreta" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="questaoCorreta">Resposta correta!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        A fim de realizar cadastro no e-SUS AF, ao clicar em “Novo por aqui?”, o usuário será direcionado para o site do SCPA (Sistema de Cadastro e Permissão de Acesso), uma plataforma de acesso a diversos sistemas do Ministério da Saúde.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JS code -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!--JS below-->
+
+
+<!--modal-->
+<script>
+  $(document).ready(function() {
+    $("#feedbackCorreto").modal();
+  });
+
+$('.big').click(function() {
+  $('.hli').toggleClass('hli');   
+  $(this).toggleClass('hli');
+});
+</script>
+</body>
+</html>

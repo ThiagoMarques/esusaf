@@ -1,0 +1,15 @@
+body{
+    background-color: white;
+    background-image: url(../../img/ESUS_BG.png);
+    transition: background-color .5s;
+    background-repeat: repeat-y;
+    background-position: bottom;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify !important;
+    height: 100vh;
+    font-size: 0.8em !important;
+}
+p{
+    font-size: 16px;
+}

@@ -1,0 +1,15 @@
+.titulo{
+    color: #3d648a;
+    margin-top: 50px;
+}
+.titulo_manual{
+    margin-top: 30px;
+    color: #3d648a;
+}
+.manual{
+    list-style: none;
+    padding-left: 20px;
+}
+.manual p{
+    margin: 1px;
+}
